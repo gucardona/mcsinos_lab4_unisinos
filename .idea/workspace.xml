@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f56ce21-eba0-4fde-9bcc-b0f14cec81f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pedido/Cardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pedido/FilaDePedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pedido/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teclado/Teclado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operacoes/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operacoes/Operacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Cardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedido/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedido/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedido/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,8 @@
       <updated>1685382063906</updated>
       <workItem from="1685382065212" duration="814000" />
       <workItem from="1685465545194" duration="595000" />
-      <workItem from="1685983769343" duration="5646000" />
+      <workItem from="1685983769343" duration="5856000" />
+      <workItem from="1686052191071" duration="3518000" />
     </task>
     <servers />
   </component>

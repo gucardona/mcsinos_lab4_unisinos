@@ -2,17 +2,18 @@ package pedido;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Pedido {
     private String nomeDoCliente;
-    private Cardapio[] itensDoPedido;
+    private ArrayList<Cardapio> itensDoPedido;
     private double valorDoPedido;
     private LocalDateTime dataHoraDoPedido;
 
     public Pedido() {}
 
-    public Pedido(String nomeDoCliente, Cardapio[] itensDoPedido, double valorDoPedido, LocalDateTime dataHoraDoPedido) {
+    public Pedido(String nomeDoCliente, ArrayList<Cardapio> itensDoPedido, double valorDoPedido, LocalDateTime dataHoraDoPedido) {
         this.nomeDoCliente = nomeDoCliente;
         this.itensDoPedido = itensDoPedido;
         this.valorDoPedido = valorDoPedido;
@@ -27,7 +28,7 @@ public class Pedido {
         this.nomeDoCliente = nomeDoCliente;
     }
 
-    public Cardapio[] getItensDoPedido() {
+    public ArrayList<Cardapio> getItensDoPedido() {
         return itensDoPedido;
     }
 
@@ -42,7 +43,7 @@ public class Pedido {
     @Override
     public String toString() {
         return "Nome do Cliente: " + nomeDoCliente +
-                "\nItens do pedido: " + Arrays.toString(itensDoPedido) +
+                "\nItens do pedido: " + itensDoPedido.toString() +
                 "\nValor do pedido: " + valorDoPedido +
                 "\nData e hora do pedido: " + dataHoraDoPedido;
     }
