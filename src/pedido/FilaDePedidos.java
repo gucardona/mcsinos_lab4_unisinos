@@ -10,7 +10,11 @@ public class FilaDePedidos {
         this.filaDePedidos = new LinkedList<>();
     }
 
-    public void getFilaDePedidos() {
+    public Queue<Pedido> getFilaDePedidos() {
+        return filaDePedidos;
+    }
+
+    public void mostraFilaDePedidos() {
         if (filaDePedidos.isEmpty()) {
             System.out.println("A fila de pedidos está vazia.");
             return;

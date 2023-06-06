@@ -2,6 +2,7 @@ package pedido;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -24,10 +25,6 @@ public class Pedido {
         return nomeDoCliente;
     }
 
-    public void setNomeDoCliente(String nomeDoCliente) {
-        this.nomeDoCliente = nomeDoCliente;
-    }
-
     public ArrayList<Cardapio> getItensDoPedido() {
         return itensDoPedido;
     }
@@ -42,9 +39,10 @@ public class Pedido {
 
     @Override
     public String toString() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         return "Nome do Cliente: " + nomeDoCliente +
-                "\nItens do pedido: " + itensDoPedido.toString() +
+                "\nItens do pedido: " + getItensDoPedido() +
                 "\nValor do pedido: " + valorDoPedido +
-                "\nData e hora do pedido: " + dataHoraDoPedido;
+                "\nData e hora do pedido: " + dataHoraDoPedido.format(formatter);
     }
 }
