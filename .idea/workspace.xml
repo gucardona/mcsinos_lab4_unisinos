@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f56ce21-eba0-4fde-9bcc-b0f14cec81f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pedido/FilaDePedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedido/FilaDePedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/OperacoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/OperacoesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.OperacoesTest.testa_entrega">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="mcsinos" />
@@ -65,8 +66,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperacoesTest.testa_adicao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsinos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.OperacoesTest" />
+      <option name="METHOD_NAME" value="testa_adicao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesTest.testa_entrega" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsinos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.OperacoesTest" />
+      <option name="METHOD_NAME" value="testa_entrega" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesTest.testa_entrega" />
+        <item itemvalue="JUnit.OperacoesTest.testa_adicao" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -83,7 +118,7 @@
       <workItem from="1685465545194" duration="595000" />
       <workItem from="1685983769343" duration="5856000" />
       <workItem from="1686052191071" duration="10972000" />
-      <workItem from="1686138043873" duration="314000" />
+      <workItem from="1686138043873" duration="1580000" />
     </task>
     <servers />
   </component>
