@@ -21,11 +21,15 @@ public class FilaDePedidos {
         }
 
         int numeroDoPedido = 1;
+        System.out.println("=========================================================================");
         for (Pedido pedido : filaDePedidos) {
             System.out.println();
             System.out.println("Pedido #" + numeroDoPedido + ": \n" + pedido.toString());
             numeroDoPedido++;
+            System.out.println();
         }
+        System.out.println("=========================================================================");
+        System.out.println();
     }
 
     public void adicionarPedido(Pedido pedido) {
